@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css style link -->
+    <link rel="stylesheet" href="/assets/style.css">
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Nav bar start -->
+    <nav>
+        <div class="container nav-container">
+            <a class="logo" href="./index.html"><h3>SP<span>-</span>Blog</h3></a>
+            <ul class="nav-link">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./service.html">Service</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./signin.html">Sign In</a></li>
+                <li>
+                    <div class="nav-profile">
+                        <div class="profile-img">
+                            <img class="nav-img" src="./assets/img/Digital-Platform-EN.jpg" alt="">
+                        </div>
+                        <ul>
+                            <li><a href="./manage-post.html">Dashboard</a></li>
+                            <li><a href="./index.html">Log Out</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <button class="phone-button open"><i class="fa-solid fa-bars"></i></button>
+            <button class="phone-button close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+    <!-- Nav bar end -->
+    
+    <!-- dashboard start -->
+    <section class="dashboard">
+        <div class="container dashboard-container">
+            <aside>
+                <ul>
+                    <li>
+                        <a href="addPost.html">
+                            <i class="fas fa-plus-square"></i>
+                            <h5>Add Post</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="manage-post.html">
+                            <i class="fa-solid fa-pen"></i>
+                            <h5>Manage Post</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="addUser.html">
+                            <i class="fa-solid fa-user-plus"></i>
+                            <h5>Add User</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="manage-user.html">
+                            <i class="fa-solid fa-user"></i>
+                            <h5>Manage User</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="addCategory.html">
+                            <i class="fa-solid fa-folder-plus"></i>
+                            <h5>Add Category</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="manage-category.html">
+                            <i class="fa-solid fa-list"></i>
+                            <h5>Manage Category</h5>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <main>
+                <h2>Manage User</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>User Name</th>
+                            <th>Admin</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>afaf</td>
+                            <td>afaf</td>
+                            <td>Yes</td>
+                            <td><a href="./editUser.html" class="btn sm">Edit</a></td>
+                            <td><a href="" class="btn sm danger">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+    </section>
+    <!-- dashboard end -->
+
+    <!--Footer start -->
+    <footer>
+        <p>this template create by sam sreypich</p>
+    </footer>
+    <!--Footer end -->    
+    <!-- custom js link -->
+    <script src="/assets/main.js"></script>
+</body>
+</html>
